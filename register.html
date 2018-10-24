@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>stuHelp | Register</title>
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/alert.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+  <link rel = "stylesheet" href = "login.css" type = "text/css">
+  <script src="AgoraRTCSDK-2.4.1.js"></script>
+  <script src="vendor/jquery.js"></script>
+</head>
+
+<body>
+  <h1>
+    SIGN UP
+  </h1>
+  <form method = "post" action = "php/insertion.php">
+    <div class="Pan">
+      <div id="div_device" class="panel panel-default">
+        <div class="select" style="margin-bottom: 10px;margin-top: 10px;padding: 5px;">
+          <label for="username">Username</label><br><input type = 'text' name = 'username' id = 'username' placeholder = "User Name" required="required">
+        </div>
+        <div class="select" style="margin-bottom: 10px;padding: 5px;">
+          <label for="password">Password</label><br><input type = 'password' name = 'password' id = 'password' placeholder = "Password" required="required">
+        </div>
+        <div class="select" style="margin-bottom: 10px;padding: 5px;">
+          <label for="email">Email</label><br><input type = 'email' name = 'email' id = 'email' placeholder = "Email" required="required">
+        </div>
+        <div class="select" style="margin-bottom: 10px;padding: 5px;">
+          <label for="contact">Contact</label><br><input type = 'text' name = 'contact' id = 'contact' placeholder = "Contact">
+        </div>
+      </div>
+
+      <div id="div_join" class="panel panel-default">
+        <div class="panel-body">
+          <div>
+            <button id="register" class="btn btn-primary btnc">REGISTER</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+
+</body>
+
+</html>
